@@ -1,0 +1,15 @@
+{
+  "name": "assessment-11---axios",
+  "version": "1.0.0",
+  "description": "You have come to a significant milestone by completing module one and the first four lessons in module 2. At this point, you already possess the technical skills to produce web pages that consume live data from any backend API. The objective for this assessment is for you to demonstrate the ability to build a web page that consumes API. Treat this assessment as a personal project where you can choose to work from any public APIs in the internet. The recommended collections of free APIs can be found [here](https://rapidapi.com/collection/list-of-free-apis).",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="./script.js"></script>
+    <title>URL Shortener App</title>
+</head>
+<body>
+    <div id="root">
+        <h3 class = "font-effect-shadow-multiple">URL Shortener App</h3>
+        <fieldset>
+            <legend class = "font-effect-shadow-multiple">Input URL here</legend>
+            <input id="data" type="text" placeholder="Start with http:// or https://" autofocus>
+            <input id="submit" type="submit" value="Submit" onclick="submit()">
+        </fieldset>
+        <fieldset>
+            <legend class = "font-effect-shadow-multiple">Shortened URL</legend>
+            <div id = "result">
+                <div id="reset">
+                    <input type="submit" value="Clear All" onclick="reset()" onkeyup="enter(reset,event)">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
